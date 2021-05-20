@@ -1,0 +1,13 @@
+@host=http://localhost:3000
+
+###
+GET {{host}}/api/stock-prices?stock=GOOG
+
+###
+GET {{host}}/api/stock-prices?stock=GOOG&like=true
+
+###
+GET {{host}}/api/stock-prices?stock=GOOG&stock=MSFT
+
+###
+GET {{host}}/api/stock-prices?stock=GOOG&stock=MSFT&like=true
